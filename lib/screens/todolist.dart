@@ -9,8 +9,8 @@ class TodoList extends StatefulWidget {
 
 }
 
-class TodoListState extends State {
-  DbHelper helper = DbHelper();
+class TodoListState extends State<TodoList> {
+  var helper = DbHelper();
   List<Todo> todos;
   int count = 0;
 
